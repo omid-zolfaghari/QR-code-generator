@@ -35,9 +35,9 @@ export default function BasicTable({urls}) {
 
 
   return (
-    <Container sx={{display : "flex", alignItems : "center", gap:"10px"}}>
+    <Container sx={{display : "flex", alignItems : "center", gap:"20px"}}>
     <TableContainer sx={{width :"800px"}} component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+      <Table sx={{ minWidth: 650, backgroundColor : "#DEE5D4" }} aria-label="simple table">
         <TableBody>
           {urls.map((url) => (
             <TableRow
@@ -92,7 +92,7 @@ export default function BasicTable({urls}) {
         </TableBody>
       </Table>
     </TableContainer>
-    <Image priority src={src} height={250} alt="QR code" width={250} />
+    <Image priority src={src} height={300} alt="QR code" width={300} />
     </Container>
   );
 }
