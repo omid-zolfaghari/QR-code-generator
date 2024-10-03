@@ -1,6 +1,6 @@
 
 import { Container } from "@mui/material";
-import { getURL} from "./utils/urlActions";
+import { getURL} from "../utils/urlActions";
 import Form from "@/components/Form";
 import BasicTable from "@/components/Table";
 

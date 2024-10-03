@@ -8,7 +8,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { Button, Container, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, TextField } from '@mui/material';
-import { deleteUrl, updateUrl } from '@/app/utils/urlActions';
+import { deleteUrl, updateUrl } from '@/utils/urlActions';
 import Image from 'next/image';
 
 
